@@ -45,7 +45,7 @@
 			</figure>
 
 			<p>
-				Insights about the data/visualization:
+				<strong>Insights about the data/visualization:</strong>
 			</p>
 
 			<ul>
@@ -55,41 +55,33 @@
 					before a larger peak. This is seen with the small July 2020 peak before the large January 2021 peak, and the September 2021 peak before 
 					the even larger January 2022 peak.
 				<li><Strong> Peaks </Strong> The highest peak seems to be at the edge of the datasets limits in January 2022, at an estimate 300K cases</li>
-				<li><Strong>Troughs:</Strong> In terms of lowest new cases, June of the 2021 had the least amount of new cases. However, this led
+				<li><Strong> Troughs:</Strong> In terms of lowest new cases, June of the 2021 had the least amount of new cases. However, this led
 				to large spike in September of 2021</li>
 			</ul>
 
 			<p>
-				Design Critique:
+				<strong>Design Critique:</strong>
 			</p>
-			Pluses:
-			<ul>
-				<li><Strong> Use of Color: </Strong> The use of a soft red was easy on the eyes and made it easy to differentiate the black center mean lines. I do believe
-				color could be used more strategically to deliver the message.</li>
-				<li><Strong> Month-to-Month/Seasonal Comparison </Strong> The use of year long cycle makes it very easy to compare months and seasons of various years.</li>
-				<li><Strong>Clear Labeling:</Strong> The labeling on this visualization was complete and clear. It was able to identify which month and year each data 
-				point was associated. The title and legend was also clear in it's communication of how to use it. </li>
-			</ul>
-			Deltas:
-			<ul>
-				<li><strong> Difficulty Quantifying values: </strong> This visualization is useful to communicate the general trends of the new cases,
-					highs and lows, but it is difficult to quantify the exact number of cases at any given time. </li>
-				</strong></li>
-				<li><Strong> Range of Values: </Strong> The legend states that the data goes from 0 to 150K cases. However, it can be seen that January 2021, 
-					and even more evidently January 2022 are larger than what is displayed on the legend. This causes confusion about what the legend is communicating.
-				It is unclear whether it is communicating that the maximum size of the plot is 150K or that January 2022 extends beyond 150K.</li>
-				<li><Strong> "7-Day Average" Label</Strong> The "7-day average" label may be better suited within the legend instead of as a label on the data.
-					This method reduced visibility of this label since it seems to get lost and difficult to see in the main visualiztion. It also could cause confusion
-				as to why the label is being applied to that data section in particular. </li>
-				<li><Strong> Difficulty in reading Spiraled Data</Strong> It's difficult for the brain to follow spiraled data since it has a level of directionality 
-					in two directions, both along the circle and based on the radius.I find it difficult to follow a year's pattern since my eye may jump to another year's data that is just on another spiral up.</li>
-
-				<li> POSSIBLY NEED TO MAKE INTO PROSE</li>
-			</ul>
+			
+			The visualization demonstrates several strengths, particularly in its use of a year-long cycle
+			format which makes month-to-month and seasonal comparisons across years intuitive and accessible. Another strength is it's color, 
+			which employs a soft red that is easy on the eyes and effectively differentiates the black center mean lines. Although color could be used 
+			more strategically to enhance the message.  Additionally, the labeling is fairly clear and comprehensive, providing a well-communicated title 
+			and legend to guide interpretation. 
+			  
+			  However, the visualization has areas for improvement. Quantifying exact values is challenging, as the design focuses more on 
+			  general trends than precise numbers. The legend's range of values, which states a maximum of 150K cases, creates confusion, especially when 
+			  peaks in January 2021 and January 2022 exceed this range, leaving it unclear whether the legend reflects the plot's maximum size or an upper 
+			  limit surpassed by the data. The placement of the "7-day average" label within the data section also reduces its visibility and may cause 
+			  confusion, as it seems misplaced and better suited within the title. Regarding the month labels, it may be difficult for a viewer to interpolate
+			  months when only given 4 througout the year. This is dificult since the viewer would have think about more since months increase from 
+			  right to left on the bottom half as opposed to right to left. Furthermore, the spiraled data format adds complexity, making it difficult
+			   for the brain to follow patterns within a single year without inadvertently jumping to another year's data due to the overlapping circular and
+			    radial directions.
 		</section>
 
 		<section>
-			<h2>Visualization Sketches</h2>
+			<h2><strong> Visualization Sketches</strong></h2>
 
       <figure>
 				<img src="Visualization_1.jpg" alt="" />
@@ -99,7 +91,7 @@
 			</figure>
 
 			<p>
-				Design Rationale for Sketch 1:
+				<strong>Design Rationale for Sketch 1:</strong>
 			</p>
 
 			<ul>
@@ -107,6 +99,8 @@
 					scale of new cases, along with the magnitude of the plot. As mentioned in lecture, color is difficult to discern subtles changes, but the ability for Color
 					and magnitude to work together is helpful.</li>
 				<li><strong> Inclusion of 7-Day Average outside the plot</strong> This was to increase clarity and discoverability of the fact that this is 7-Day averaged values.</li>
+				<li><strong> Maintain Spiral Structure</strong> I wanted to maintain the spiral structure of the original plot, since I thought it was a unique way to visualize the data.
+				However, I wanted to see if I could make it easier to follow the data by adding more color and labels. I will explore a non-spirla approach in the next plot</li>
 			</ul>
 
 			<figure>
@@ -118,7 +112,7 @@
 			</figure>
 
 			<p>
-				Design Rationale for Sketch 2:
+				<strong>Design Rationale for Sketch 2:</strong>
 			</p>
 
 			<ul>
@@ -140,7 +134,7 @@
 			</figure>
 
 			<p>
-				Design Rationale for Sketch 3:
+				<strong>Design Rationale for Sketch 3:</strong>
 			</p>
 
 			<ul>
@@ -148,7 +142,7 @@
 				how the plot looks when we had one year on one half of the circle and another year on the other. This approach ruins the ability to see the 
 				seasonality of the spikes, but does make it easier to follow.</li>
 				<li><strong>Attempt at depicting the data as a Spike Protein for COVID-19</strong>This was my thematic attempt to get the visualization to
-				look like a COVID-19 spike protein. It isn't an immediately obvious connection but it's at least a subtle connection to a shape many of us 
+				look like a COVID-19 spike protein. It does not exactly look like a spike protein however it's at least a subtle connection to a shape many of us 
 				are familiar. </li>
 				<li><strong>Including the legend inside the graphic</strong> In an effort to make the graphic more self contained, I played with the ability
 				to maintain all the descriptive data within the figure itself since it was circular. It ended up getting too busy inside, but I'll aim to 
@@ -157,20 +151,20 @@
 		</section>
 
 		<section>
-			<h2>Final Visualization Design</h2>
+			<h2><strong>Final Visualization Design</strong></h2>
       
 			<figure>
 				<img src="covid19_cases_polar_final.png" alt="" />
 				<figcaption>
-					7 Day moving average of new Covid-19 ases in the United States over a two year period from 2020-2022 emphasizing when and how large
-					the peaks of new cases were.
+					7 Day moving average of new Covid-19 cases in the United States over a two year period from 2020-2022, emphasizing when and how large
+					the peaks of new cases were and there relation to other peaks.
 				</figcaption>
 			</figure>
 
 		</section>
 
 		<section>
-			<h2>Design Process & Design Decisions</h2>
+			<h2><strong>Design Process & Design Decisions</strong></h2>
 
 			<p>
 				The goal of this plot is to provide a straightforward way to highlight the greatest peaks of new COVID-19 cases and to show that there was 
@@ -185,7 +179,7 @@
 				challenging for the eye to follow.Nonetheless, despite its simplicity, I believe the plot effectively meets the goal of illustrating periods of concern regarding new cases.
       </p>
 
-      <h3>Reflection</h3>
+      <h3><strong>Reflection</strong></h3>
 
       <p>
         I really enjoyed creating my final product, as I believe it strikes a good balance between simplifying the plot's design and effectively conveying 
